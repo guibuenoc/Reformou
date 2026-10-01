@@ -1,4 +1,5 @@
 import "./App.css";
+import BeforeAfterSlider from "./components/BeforeAfterSlider";
 
 function App() {
   return (
@@ -16,9 +17,14 @@ function App() {
       </header>
 
       <main>
+
         <section id="inicio" className="hero">
           <h1>Cada imóvel tem duas histórias. Aqui você vê as duas.</h1>
           <p>Puxe e compare o antes e o depois.</p>
+
+          <div className="slider-area">
+            <BeforeAfterSlider />
+          </div>
         </section>
 
         <section id="tour">
@@ -44,6 +50,7 @@ function App() {
         <section id="contato">
           <h2>Quer ver isso no seu imóvel?</h2>
         </section>
+
       </main>
 
       <footer>
