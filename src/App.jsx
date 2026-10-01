@@ -7,6 +7,7 @@ import LinhaDoTempo from "./components/LinhaDoTempo";
 import Sobre from "./components/Sobre";
 import Contato from "./components/Contato";
 
+import logoReformou from "./assets/logo-reformou.png";
 import cozinhaAntes from "./assets/cozinha-antes.jpg";
 import cozinhaDepois from "./assets/cozinha-depois.jpg";
 
@@ -14,7 +15,10 @@ function App() {
   return (
     <>
       <header className="menu">
-        <a href="#inicio" className="logo">Reformou</a>
+        <a href="#inicio" className="logo-area">
+          <img className="logo-img" src={logoReformou} alt="Logo Reformou" />
+          <span className="logo-texto">Reformou</span>
+        </a>
         <nav>
           <a href="#tour">Tour</a>
           <a href="#numeros">Números</a>
@@ -28,7 +32,7 @@ function App() {
       <main>
 
         <section id="inicio" className="hero">
-          <h1>Cada imóvel tem duas histórias. Aqui você vê as duas.</h1>
+          <h1>Cada imóvel tem duas histórias. A segunda é a mais bonita.</h1>
           <p>Puxe e compare o antes e o depois.</p>
 
           <div className="slider-area">
