@@ -14,13 +14,13 @@ const fases = [
   {
     fase: 'Fase 3',
     titulo: 'Revestimentos e marcenaria',
-    dias: 'Dias 16 a 32',
-    descricao: 'Assentamento de pisos e azulejos, instalação de bancadas, marcenaria sob medida e pintura geral.',
+    dias: 'Dias 16 a 40',
+    descricao: 'Assentamento de pisos e azulejos, instalação de bancadas, marcenaria sob medida, pintura geral e ambientação dos quartos.',
   },
   {
     fase: 'Fase 4',
     titulo: 'Acabamento e entrega',
-    dias: 'Dias 33 a 43',
+    dias: 'Dias 41 a 55',
     descricao: 'Instalação de iluminação, metais e louças, limpeza fina e entrega com vistoria acompanhada.',
   },
 ];

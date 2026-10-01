@@ -8,8 +8,8 @@ import Sobre from "./components/Sobre";
 import Contato from "./components/Contato";
 
 import logoReformou from "./assets/logo-reformou.png";
-import cozinhaAntes from "./assets/cozinha-antes.jpg";
-import cozinhaDepois from "./assets/cozinha-depois.jpg";
+import fachadaAntes from "./assets/fachada-antes.jpg";
+import fachadaDepois from "./assets/fachada-depois.jpg";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
           <p>Puxe e compare o antes e o depois.</p>
 
           <div className="slider-area">
-            <BeforeAfterSlider antes={cozinhaAntes} depois={cozinhaDepois} />
+            <BeforeAfterSlider antes={fachadaAntes} depois={fachadaDepois} />
           </div>
         </section>
 

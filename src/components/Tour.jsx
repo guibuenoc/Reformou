@@ -9,6 +9,8 @@ import banheiroAntes from '../assets/banheiro-antes.jpg';
 import banheiroDepois from '../assets/banheiro-depois.jpg';
 import fachadaAntes from '../assets/fachada-antes.jpg';
 import fachadaDepois from '../assets/fachada-depois.jpg';
+import quartoAntes from '../assets/quarto-antes.jpg';
+import quartoDepois from '../assets/quarto-depois.jpg';
 
 const ambientes = [
   {
@@ -46,6 +48,15 @@ const ambientes = [
     investimento: 'R$ 13.000',
     prazo: '7 dias',
     feito: 'Pintura externa, troca de portão, porta nova e jardim de entrada.',
+  },
+  {
+    id: 'quarto',
+    nome: 'Quarto',
+    antes: quartoAntes,
+    depois: quartoDepois,
+    investimento: 'R$ 16.000',
+    prazo: '12 dias',
+    feito: 'Pintura, piso novo, guarda-roupa renovado, iluminação moderna e cortinas novas.',
   },
 ];
 

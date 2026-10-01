@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 
 const dados = [
-  { valor: 64, prefixo: '', sufixo: ' mil', rotulo: 'Investimento total na reforma' },
-  { valor: 43, prefixo: '', sufixo: ' dias', rotulo: 'Prazo total da obra' },
+  { valor: 80, prefixo: '', sufixo: ' mil', rotulo: 'Investimento total na reforma' },
+  { valor: 55, prefixo: '', sufixo: ' dias', rotulo: 'Prazo total da obra' },
   { valor: 72, prefixo: '', sufixo: ' m²', rotulo: 'Área reformada' },
   { valor: 18, prefixo: '', sufixo: '%', rotulo: 'Valorização estimada do imóvel' },
 ];
