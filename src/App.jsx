@@ -17,7 +17,6 @@ function App() {
       <header className="menu">
         <a href="#inicio" className="logo-area">
           <img className="logo-img" src={logoReformou} alt="Logo Reformou" />
-          <span className="logo-texto">Reformou</span>
         </a>
         <nav>
           <a href="#tour">Tour</a>
