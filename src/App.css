@@ -172,3 +172,58 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+/* Tour por ambientes */
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.95rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.tab-ativa {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #0d0d0f;
+  font-weight: 700;
+}
+
+.info-ambiente {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.info-ambiente p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.info-ambiente strong {
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.25rem;
+}

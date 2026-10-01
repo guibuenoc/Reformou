@@ -1,5 +1,9 @@
 import "./App.css";
 import BeforeAfterSlider from "./components/BeforeAfterSlider";
+import Tour from './components/Tour';
+import cozinhaAntes from './assets/cozinha-antes.jpg';
+import cozinhaDepois from './assets/cozinha-depois.jpg';
+
 
 function App() {
   return (
@@ -22,13 +26,14 @@ function App() {
           <h1>Cada imóvel tem duas histórias. Aqui você vê as duas.</h1>
           <p>Puxe e compare o antes e o depois.</p>
 
-          <div className="slider-area">
-            <BeforeAfterSlider />
-          </div>
+        <div className="slider-area">
+           <BeforeAfterSlider antes={cozinhaAntes} depois={cozinhaDepois} />
+        </div>
         </section>
 
         <section id="tour">
           <h2>Tour por ambientes</h2>
+          <Tour />
         </section>
 
         <section id="numeros">
