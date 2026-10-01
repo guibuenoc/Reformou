@@ -2,6 +2,7 @@ import "./App.css";
 import BeforeAfterSlider from "./components/BeforeAfterSlider";
 import Tour from "./components/Tour";
 import Numeros from './components/Numeros';
+import Calculadora from './components/Calculadora';
 
 import cozinhaAntes from "./assets/cozinha-antes.jpg";
 import cozinhaDepois from "./assets/cozinha-depois.jpg";
@@ -44,6 +45,7 @@ function App() {
 
         <section id="calculadora">
           <h2>Quanto sai a sua?</h2>
+          <Calculadora />
         </section>
 
         <section id="obra">
