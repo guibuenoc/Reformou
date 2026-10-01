@@ -1,6 +1,7 @@
 import "./App.css";
 import BeforeAfterSlider from "./components/BeforeAfterSlider";
 import Tour from "./components/Tour";
+import Numeros from './components/Numeros';
 
 import cozinhaAntes from "./assets/cozinha-antes.jpg";
 import cozinhaDepois from "./assets/cozinha-depois.jpg";
@@ -38,6 +39,7 @@ function App() {
 
         <section id="numeros">
           <h2>A obra em números</h2>
+          <Numeros />
         </section>
 
         <section id="calculadora">

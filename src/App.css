@@ -323,3 +323,43 @@ footer {
   display: block;
   margin-bottom: 0.25rem;
 }
+
+/* Números da obra */
+.numeros-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.numero-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.numero-valor {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.4rem;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+}
+
+.numero-rotulo {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Celular */
+@media (max-width: 720px) {
+  .numeros-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .numero-valor {
+    font-size: 1.8rem;
+  }
+}
