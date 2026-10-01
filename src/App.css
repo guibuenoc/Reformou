@@ -504,10 +504,14 @@ footer {
 }
 
 /* Sobre a equipe */
+.sobre-intro {
+  text-align: center;
+}
+
 .sobre-intro p {
   color: #1c221e;
   max-width: 60ch;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
 }
 
 .sobre-grid {
