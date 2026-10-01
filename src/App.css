@@ -507,3 +507,71 @@ footer {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+/* Linha do tempo da obra */
+.linha-tempo {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.linha-item {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.linha-coluna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linha-ponto {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px rgba(200, 240, 74, 0.4);
+  flex-shrink: 0;
+  margin-top: 0.3rem;
+}
+
+.linha-traco {
+  width: 2px;
+  flex: 1;
+  background: var(--border);
+  margin-top: 0.4rem;
+}
+
+.linha-item:last-child .linha-traco {
+  display: none;
+}
+
+.linha-conteudo {
+  padding-bottom: 2.5rem;
+}
+
+.linha-fase {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.linha-titulo {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.25rem;
+  margin: 0.25rem 0;
+}
+
+.linha-dias {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.linha-descricao {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}

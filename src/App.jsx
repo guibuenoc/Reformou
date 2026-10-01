@@ -1,8 +1,9 @@
 import "./App.css";
 import BeforeAfterSlider from "./components/BeforeAfterSlider";
 import Tour from "./components/Tour";
-import Numeros from './components/Numeros';
-import Calculadora from './components/Calculadora';
+import Numeros from "./components/Numeros";
+import Calculadora from "./components/Calculadora";
+import LinhaDoTempo from "./components/LinhaDoTempo";
 
 import cozinhaAntes from "./assets/cozinha-antes.jpg";
 import cozinhaDepois from "./assets/cozinha-depois.jpg";
@@ -50,6 +51,7 @@ function App() {
 
         <section id="obra">
           <h2>Linha do tempo da obra</h2>
+          <LinhaDoTempo />
         </section>
 
         <section id="sobre">
