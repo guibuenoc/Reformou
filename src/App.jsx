@@ -5,6 +5,7 @@ import Numeros from "./components/Numeros";
 import Calculadora from "./components/Calculadora";
 import LinhaDoTempo from "./components/LinhaDoTempo";
 import Sobre from "./components/Sobre";
+import Contato from "./components/Contato";
 
 import cozinhaAntes from "./assets/cozinha-antes.jpg";
 import cozinhaDepois from "./assets/cozinha-depois.jpg";
@@ -62,6 +63,7 @@ function App() {
 
         <section id="contato">
           <h2>Quer ver isso no seu imóvel?</h2>
+          <Contato />
         </section>
 
       </main>
