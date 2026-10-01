@@ -456,6 +456,62 @@ footer {
   margin-top: 0.5rem;
 }
 
+/* Sobre a equipe */
+.sobre-intro p {
+  color: var(--muted);
+  max-width: 60ch;
+  margin-bottom: 2rem;
+}
+
+.sobre-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.sobre-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: border-color 0.2s;
+}
+
+.sobre-card:hover {
+  border-color: var(--accent);
+}
+
+.sobre-foto {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent);
+  margin-bottom: 1rem;
+}
+
+.sobre-nome {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.1rem;
+}
+
+.sobre-cargo {
+  display: block;
+  color: var(--accent);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  margin-top: 0.25rem;
+}
+
+.sobre-bio {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 0.75rem;
+}
+
 /* Celular */
 @media (max-width: 720px) {
   .menu {
@@ -492,5 +548,9 @@ footer {
 
   .linha-caixa {
     padding: 1.1rem;
+  }
+
+  .sobre-grid {
+    grid-template-columns: 1fr;
   }
 }

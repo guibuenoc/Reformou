@@ -4,6 +4,7 @@ import Tour from "./components/Tour";
 import Numeros from "./components/Numeros";
 import Calculadora from "./components/Calculadora";
 import LinhaDoTempo from "./components/LinhaDoTempo";
+import Sobre from "./components/Sobre";
 
 import cozinhaAntes from "./assets/cozinha-antes.jpg";
 import cozinhaDepois from "./assets/cozinha-depois.jpg";
@@ -55,7 +56,8 @@ function App() {
         </section>
 
         <section id="sobre">
-          <h2>Sobre o profissional</h2>
+          <h2>Quem faz acontecer</h2>
+          <Sobre />
         </section>
 
         <section id="contato">
