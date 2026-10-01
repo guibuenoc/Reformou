@@ -227,3 +227,99 @@ footer {
   display: block;
   margin-bottom: 0.25rem;
 }
+
+/* Slider antes e depois */
+.slider-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-box {
+  position: relative;
+  max-width: 900px;
+  margin: 3rem auto 0;
+}
+
+.slider-box img-comparison-slider {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  --divider-color: var(--accent);
+  --divider-width: 3px;
+}
+
+.slider-box .tag {
+  position: absolute;
+  top: 1rem;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: rgba(13, 13, 15, 0.75);
+  color: var(--text);
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  backdrop-filter: blur(4px);
+  pointer-events: none;
+  z-index: 10;
+}
+
+.tag-antes { left: 1rem; }
+.tag-depois { right: 1rem; color: var(--accent); }
+
+/* Tour por ambientes */
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.95rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.tab-ativa {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #0d0d0f;
+  font-weight: 700;
+}
+
+.info-ambiente {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.info-ambiente p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.info-ambiente strong {
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.25rem;
+}

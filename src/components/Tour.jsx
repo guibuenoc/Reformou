@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import BeforeAfterSlider from './BeforeAfterSlider';
 
-import cozinhaAntes from '../assets/cozinha-antes.png';
-import cozinhaDepois from '../assets/cozinha-depois.png';
-import salaAntes from '../assets/sala-antes.png';
-import salaDepois from '../assets/sala-depois.png';
-import banheiroAntes from '../assets/banheiro-antes.png';
-import banheiroDepois from '../assets/banheiro-depois.png';
-import fachadaAntes from '../assets/fachada-antes.png';
+import cozinhaAntes from '../assets/cozinha-antes.jpg';
+import cozinhaDepois from '../assets/cozinha-depois.jpg';
+import salaAntes from '../assets/sala-antes.jpg';
+import salaDepois from '../assets/sala-depois.jpg';
+import banheiroAntes from '../assets/banheiro-antes.jpg';
+import banheiroDepois from '../assets/banheiro-depois.jpg';
+import fachadaAntes from '../assets/fachada-antes.jpg';
+import fachadaDepois from '../assets/fachada-depois.jpg';
 
 const ambientes = [
   {
@@ -41,10 +42,10 @@ const ambientes = [
     id: 'fachada',
     nome: 'Fachada',
     antes: fachadaAntes,
-    depois: fachadaAntes,
+    depois: fachadaDepois,
     investimento: 'R$ 13.000',
     prazo: '7 dias',
-    feito: 'Pintura externa, troca de esquadrias e jardim de entrada.',
+    feito: 'Pintura externa, troca de portão, porta nova e jardim de entrada.',
   },
 ];
 
