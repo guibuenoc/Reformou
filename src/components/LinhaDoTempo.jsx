@@ -34,7 +34,7 @@ function LinhaDoTempo() {
             <span className="linha-ponto"></span>
             <span className="linha-traco"></span>
           </div>
-          <div className="linha-conteudo">
+          <div className="linha-caixa">
             <span className="linha-fase">{f.fase}</span>
             <h3 className="linha-titulo">{f.titulo}</h3>
             <span className="linha-dias">{f.dias}</span>
